@@ -1,0 +1,78 @@
+.parent{
+  font-family: sans-serif;
+  font-size: 1.2rem;
+}
+.header{
+  text-align: center;
+}
+.h1{
+  width: 100%;
+  margin-top: 8px;
+}
+.btn{
+  padding: 5px;
+  margin: 5px;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 70px;
+}
+@media (max-width:720px) {
+  .container{
+    display: block;
+  }
+  .container > div{
+    padding: 10px 5px !important;
+    text-align: center;
+  }
+  .head{
+    padding: 1px 0px !important;
+  }
+  span{
+    margin-right: 15px !important;
+  }
+  .pp{
+    margin-left: -8px !important;
+  }
+}
+.input{
+  width: 300px;
+  padding: 10px;
+}
+.container > div{
+  padding: 30px 30px;
+  text-align: center;
+}
+.head{
+  background-color: #ff5050;
+  color: white;
+  padding: 1px 60px 1px 60px;
+  border-radius:15px 15px 0 0;
+  height: 65px;
+}
+.tail{
+  background-color: #ff5050;
+  height: 20px;
+  border-radius: 0 0 15px 15px;
+}
+.p{
+  height: 20px;
+  font-size: xx-large;
+  font-family: cursive;
+  font-weight: bolder;
+  margin-top: 8px;
+}
+.pp{
+  margin-top: -25px;
+  font-size: small;
+}
+span{
+  background-color: black;
+  width: 5px;
+  height: 5px;
+  float: right;
+  margin-right: -55px;
+  margin-top: 10px;
+  border-radius: 50%;
+}
