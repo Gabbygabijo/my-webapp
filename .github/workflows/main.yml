@@ -10,4 +10,4 @@ jobs:
     
     steps:
       - name: Push and deploy
-        run: cd /var/www/html && git pull origin master && npm run build &&  cd ./build && sudo mv ./* ../
+        run: cd /var/www/html && git pull origin master && sudo npm run build && cd ./build && sudo cp -R ./* ../
